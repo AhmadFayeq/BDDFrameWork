@@ -1,0 +1,4 @@
+stepDefinitions\CanvasStepDefinition.class
+stepDefinitions\Initializer.class
+stepDefinitions\StepDifinitions.class
+runners\TestRunner.class
