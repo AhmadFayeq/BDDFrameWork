@@ -20,6 +20,8 @@ public class StepDifinitions extends ConfigFileReader {
 
 	TekSchoolHomePage tsh;
 	TestEnvironmentPage tep;
+	
+	ScreenShotUtil ssu;
 
 	@Given("^User is on Home Page$")
 	public void user_is_on_Home_Page() {
@@ -95,7 +97,7 @@ public class StepDifinitions extends ConfigFileReader {
 	public void user_click_on_myAccount() {
 		tep = new TestEnvironmentPage();
 		tep.clickOnMyAcount();
-
+		
 	}
 
 	@When("^User select login from dropdown$")
@@ -131,9 +133,11 @@ public class StepDifinitions extends ConfigFileReader {
 	}
 
 	@When("^Click continue button$")
-	public void click_continue_button() {
+	public void click_continue_button() throws IOException {
 		tep = new TestEnvironmentPage();
 		tep.clickOnLoginButton();
+		
+		ScreenShotUtil.captureScreenShot("continueButton", "C:\\Users\\allem\\eclipse-workspace\\BDDTestFramework\\target\\testPictures");
 
 	}
 
@@ -145,6 +149,8 @@ public class StepDifinitions extends ConfigFileReader {
 		assertEquals(expectedTitle, actualTitle);
 		//Assert.assertEquals(expectedTitle, actualTitle);
 		ScreenShotUtil.captureScreenShot("MyAcount Picture",
+				
+				
 				"C:\\Users\\allem\\eclipse-workspace\\BDDTestFramework\\target\\testPictures");
 	}
 

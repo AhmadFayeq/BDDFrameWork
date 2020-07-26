@@ -4,7 +4,7 @@
 
 
 <head>
-	<meta charset='UTF-8' /> 
+	<meta charset='utf-8' /> 
 	<meta name='description' content='' />
 	<meta name='robots' content='noodp, noydir' />
 	<meta name='viewport' content='width=device-width, initial-scale=1' />
@@ -15,14 +15,9 @@
 
 		<link href='https://cdn.rawgit.com/anshooarora/extentreports-java/b4a58fcfd1e137bd9287244035a7c80d3d73b3af/dist/css/extent.css' type='text/css' rel='stylesheet' />
 	
-	<title>TEKSCHOOL - Cucumber Framework</title>
+	<title>ExtentReports</title>
 
 	<style type='text/css'>
-			
-     
-
-     
-   
 	</style>
 </head>
 
@@ -43,7 +38,7 @@
 		</ul>
 
 		<!-- report name -->
-		<span class='report-name'>TEKSCHOOL - Cucumber Report</span>
+		<span class='report-name'>ExtentReports</span>
 		
 		<!-- report headline -->
 		<span class='report-headline'></span>
@@ -52,7 +47,7 @@
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<li>
                 <a href='#!'>
-                    <span class='label suite-start-time blue darken-3'>Jun 8, 2019 02:03:35 PM</span>
+                    <span class='label suite-start-time blue darken-3'>Aug 11, 2019 07:23:14 PM</span>
 				</a>
 			</li>
 			<li>
@@ -77,7 +72,7 @@
 					<i class='material-icons'>warning</i> Status
 				</a>
 				<ul id='tests-toggle' class='dropdown-content'>
-											<li status='pass'><a href='#!'>Pass <i class='material-icons green-text'>check_circle</i></a></li>
+											<li status='skip'><a href='#!'>Skip <i class='material-icons cyan-text'>redo</i></a></li>
 					<li class='divider'></li>
 					<li status='clear' clear='true'><a href='#!'>Clear Filters <i class='material-icons'>clear</i></a></li>
 				</ul>
@@ -90,12 +85,9 @@
 					<i class='material-icons'>local_offer</i> Category
 				</a>
 				<ul id='category-toggle' class='dropdown-content'>
-					<li><a href='#'>@TekSchoolTest</a></li>
-					<li><a href='#'>@LoginTest</a></li>
+					<li><a href='#'>@alltest</a></li>
 					<li><a href='#'>@smoketest</a></li>
-					<li><a href='#'>@test</a></li>
-					<li><a href='#'>@loginPage</a></li>
-					<li><a href='#'>@test001</a></li>
+					<li><a href='#'>@logOUT</a></li>
 					<li class='divider'></li>
 					<li class='clear'><a href='#!' clear='true'>Clear Filters</a></li>
 				</ul>
@@ -143,10 +135,10 @@
 					<canvas id='parent-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>1</span> feature(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='0%'><span class='strong'>0</span> feature(s) passed</span>
 				</div>
 				<div class='block text-small'>
-					<span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> feature(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
+					<span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> feature(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='100%'>1</span> others
 				</div>
 			</div>
 		</div>
@@ -158,10 +150,10 @@
 					<canvas id='child-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>3</span> scenario(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='0%'><span class='strong'>0</span> scenario(s) passed</span>
 				</div>
 				<div class='block text-small'>
-					<span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> scenario(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
+					<span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> scenario(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='100%'>2</span> others
 				</div>
 			</div>
 		</div>
@@ -173,10 +165,10 @@
 					<canvas id='grandchild-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>18</span> step(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='0%'><span class='strong'>0</span> step(s) passed</span>
 				</div>
 				<div class='block text-small'>
-					<span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
+					<span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='100%'>6</span> others
 				</div>
 			</div>
 		</div>
@@ -190,167 +182,81 @@
 			<ul id='test-collection' class='test-collection'>
 				
 				
-				<li class='test displayed active has-leaf pass' status='pass' bdd='true' test-id='1'>
+				<li class='test displayed active has-leaf skip' status='skip' bdd='true' test-id='1'>
 					<div class='test-heading'>
-						<span class='test-name'>Tek School Test</span>
-						<span class='test-time'>Jun 8, 2019 02:03:35 PM</span>
-						<span class='test-status right pass'>pass</span>
+						<span class='test-name'>Login Action</span>
+						<span class='test-time'>Aug 11, 2019 07:23:14 PM</span>
+						<span class='test-status right skip'>skip</span>
 					</div>
 					<div class='test-content hide'>
-<div class='scenario node' test-id='2' status='pass'>
-	<div class='category-list'>
-		<span class='category label white-text'>@LoginTest</span>
-		<span class='category label white-text'>@smoketest</span>
-		<span class='category label white-text'>@test</span>
-	</div>
-	<span class='duration right label'>0h 0m 11s+14ms</span>
+<div class='scenario node' test-id='2' status='skip'>
+	<span class='duration right label'>0h 0m 0s+86ms</span>
 	<div class='desc'>
 		<b>Scenario</b>
-		<span class="desc-text">Login to test environment</span>
+		<span class="desc-text">Successful Login with Valid Credentials</span>
 	</div>
 	<ul class='steps'>
-		<li test-id='3' class='node given pass' status='pass'>
+		<li test-id='3' class='node given skip' status='skip'>
 			
 			<b>Given</b>
 			
-			<span class="bdd-step-name">Given User go to  Tek School page</span>
-				<div class='pre'>passed</div>
+			<span class="bdd-step-name">Given User is on Home Page</span>
+				<div class='pre'>skipped</div>
 			
 		</li>
-		<li test-id='4' class='node when pass' status='pass'>
+		<li test-id='4' class='node when skip' status='skip'>
 			
 			<b>When</b>
 			
-			<span class="bdd-step-name">When User click on test environment</span>
-				<div class='pre'>passed</div>
+			<span class="bdd-step-name">When User Navigate to LogIn Page</span>
+				<div class='pre'>skipped</div>
 			
 		</li>
-		<li test-id='5' class='node when pass' status='pass'>
-			
-			<b>When</b>
-			
-			<span class="bdd-step-name">When User should see the test environment page</span>
-				<div class='pre'>passed</div>
-			
-		</li>
-		<li test-id='6' class='node then pass' status='pass'>
-			
-			<b>Then</b>
-			
-			<span class="bdd-step-name">Then User veriry test environment title</span>
-				<div class='pre'>passed</div>
-			
-		</li>
-	</ul>
-</div>
-<div class='scenario node' test-id='7' status='pass'>
-	<div class='category-list'>
-		<span class='category label white-text'>@loginPage</span>
-		<span class='category label white-text'>@test</span>
-	</div>
-	<span class='duration right label'>0h 0m 10s+875ms</span>
-	<div class='desc'>
-		<b>Scenario</b>
-		<span class="desc-text">Login to My Account</span>
-	</div>
-	<ul class='steps'>
-		<li test-id='8' class='node given pass' status='pass'>
-			
-			<b>Given</b>
-			
-			<span class="bdd-step-name">Given User go to  Tek School page</span>
-				<div class='pre'>passed</div>
-			
-		</li>
-		<li test-id='9' class='node when pass' status='pass'>
-			
-			<b>When</b>
-			
-			<span class="bdd-step-name">When User click on test environment</span>
-				<div class='pre'>passed</div>
-			
-		</li>
-		<li test-id='10' class='node when pass' status='pass'>
-			
-			<b>When</b>
-			
-			<span class="bdd-step-name">When User click on myAccount</span>
-				<div class='pre'>passed</div>
-			
-		</li>
-		<li test-id='11' class='node and pass' status='pass'>
+		<li test-id='5' class='node and skip' status='skip'>
 			
 			<b>And</b>
 			
-			<span class="bdd-step-name">And User select login from dropdown</span>
-				<div class='pre'>passed</div>
+			<span class="bdd-step-name">And User enters UserName and Password</span>
+				<div class='pre'>skipped</div>
 			
 		</li>
-		<li test-id='12' class='node then pass' status='pass'>
+		<li test-id='6' class='node then skip' status='skip'>
 			
 			<b>Then</b>
 			
-			<span class="bdd-step-name">Then User should see login page</span>
-				<div class='pre'>passed</div>
+			<span class="bdd-step-name">Then Message displayed Login Successfully</span>
+				<div class='pre'>skipped</div>
 			
 		</li>
 	</ul>
 </div>
-<div class='scenariooutline node' test-id='13' status='pass'>
-	<span class='duration right label'>0h 0m 13s+31ms</span>
+<div class='scenario node' test-id='7' status='skip'>
+	<div class='category-list'>
+		<span class='category label white-text'>@smoketest</span>
+		<span class='category label white-text'>@logOUT</span>
+		<span class='category label white-text'>@smoketest</span>
+	</div>
+	<span class='duration right label'>0h 0m 0s+6ms</span>
 	<div class='desc'>
-		<b>ScenarioOutline</b>
-		<span class="desc-text">Testing login with different user and pass</span>
+		<b>Scenario</b>
+		<span class="desc-text">Successful LogOut</span>
 	</div>
 	<ul class='steps'>
-		<li test-id='14' class='node scenario pass' status='pass'>
-			<div class='category-list'>
-				<span class='category label white-text'>@TekSchoolTest</span>
-				<span class='category label white-text'>@test001</span>
-			</div>
+		<li test-id='8' class='node when skip' status='skip'>
 			
-			<b>Scenario</b>
+			<b>When</b>
 			
-			<span class="bdd-step-name">Testing login with different user and pass</span>
+			<span class="bdd-step-name">When User LogOut from the Application</span>
+				<div class='pre'>skipped</div>
 			
-				<ul class='steps'>
-					<li test-id='15' class='node given pass' status='pass'><b>Given</b>
-						<span class="bdd-step-name">Given User go to  Tek School page</span>
-							<div class='pre'>passed</div>
-					</li>
-					<li test-id='16' class='node when pass' status='pass'><b>When</b>
-						<span class="bdd-step-name">When User click on test environment</span>
-							<div class='pre'>passed</div>
-					</li>
-					<li test-id='17' class='node when pass' status='pass'><b>When</b>
-						<span class="bdd-step-name">When User click on myAccount</span>
-							<div class='pre'>passed</div>
-					</li>
-					<li test-id='18' class='node and pass' status='pass'><b>And</b>
-						<span class="bdd-step-name">And User select login from dropdown</span>
-							<div class='pre'>passed</div>
-					</li>
-					<li test-id='19' class='node then pass' status='pass'><b>Then</b>
-						<span class="bdd-step-name">Then User should see login page</span>
-							<div class='pre'>passed</div>
-					</li>
-					<li test-id='20' class='node when pass' status='pass'><b>When</b>
-						<span class="bdd-step-name">When User enter username tes12@tek.com</span>
-							<div class='pre'>passed</div>
-					</li>
-					<li test-id='21' class='node and pass' status='pass'><b>And</b>
-						<span class="bdd-step-name">And User enter password test0011</span>
-							<div class='pre'>passed</div>
-					</li>
-					<li test-id='22' class='node and pass' status='pass'><b>And</b>
-						<span class="bdd-step-name">And Click continue button</span>
-							<div class='pre'>passed</div>
-					</li>
-					<li test-id='23' class='node then pass' status='pass'><b>Then</b>
-						<span class="bdd-step-name">Then User should be logged in successfully</span>
-							<div class='pre'>passed</div>
-					</li>
-				</ul>
+		</li>
+		<li test-id='9' class='node then skip' status='skip'>
+			
+			<b>Then</b>
+			
+			<span class="bdd-step-name">Then Message displayed LogOut Successfully</span>
+				<div class='pre'>skipped</div>
+			
 		</li>
 	</ul>
 </div>
@@ -408,16 +314,16 @@
 				
 				<li class='category displayed active'>
 					<div class='category-heading'>
-						<span class='category-name'>@TekSchoolTest</span>
+						<span class='category-name'>@alltest</span>
 						<span class='category-status right'>
-							<span class='label pass'>2</span>
+							<span class='label others'>1</span>
 						</span>
 					</div>
 					<div class='category-content hide'>
 						<div class='category-status-counts'>
-							<span class='label green accent-4 white-text'>Passed: 2</span>
 							
 							
+							<span class='label yellow darken-2 white-text'>Others: 1</span>
 						</div>
 					
 						<div class='category-tests'>
@@ -431,48 +337,9 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Jun 8, 2019 02:03:35 PM</td>
-										<td class='linked' test-id='1'>Tek School Test</td>
-										<td><span class='test-status pass'>pass</span></td>
-									</tr>
-									<tr>
-										<td>Jun 8, 2019 02:03:58 PM</td>
-										<td class='linked' test-id='14'>Tek School Test.Testing login with different user and pass.Testing login with different user and pass</td>
-										<td><span class='test-status pass'>pass</span></td>
-									</tr>
-								</tbody>
-							</table>
-						</div>
-					</div>
-				</li>
-				<li class='category displayed active'>
-					<div class='category-heading'>
-						<span class='category-name'>@LoginTest</span>
-						<span class='category-status right'>
-							<span class='label pass'>1</span>
-						</span>
-					</div>
-					<div class='category-content hide'>
-						<div class='category-status-counts'>
-							<span class='label green accent-4 white-text'>Passed: 1</span>
-							
-							
-						</div>
-					
-						<div class='category-tests'>
-							<table class='bordered table-results'>
-								<thead>
-									<tr>
-										<th>Timestamp</th>
-										<th>TestName</th>
-										<th>Status</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td>Jun 8, 2019 02:03:35 PM</td>
-										<td class='linked' test-id='2'>Tek School Test.Login to test environment</td>
-										<td><span class='test-status pass'>pass</span></td>
+										<td>Aug 11, 2019 07:23:14 PM</td>
+										<td class='linked' test-id='1'>Login Action</td>
+										<td><span class='test-status skip'>skip</span></td>
 									</tr>
 								</tbody>
 							</table>
@@ -483,14 +350,14 @@
 					<div class='category-heading'>
 						<span class='category-name'>@smoketest</span>
 						<span class='category-status right'>
-							<span class='label pass'>1</span>
+							<span class='label others'>1</span>
 						</span>
 					</div>
 					<div class='category-content hide'>
 						<div class='category-status-counts'>
-							<span class='label green accent-4 white-text'>Passed: 1</span>
 							
 							
+							<span class='label yellow darken-2 white-text'>Others: 1</span>
 						</div>
 					
 						<div class='category-tests'>
@@ -504,9 +371,9 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Jun 8, 2019 02:03:35 PM</td>
-										<td class='linked' test-id='2'>Tek School Test.Login to test environment</td>
-										<td><span class='test-status pass'>pass</span></td>
+										<td>Aug 11, 2019 07:23:14 PM</td>
+										<td class='linked' test-id='7'>Login Action.Successful LogOut</td>
+										<td><span class='test-status skip'>skip</span></td>
 									</tr>
 								</tbody>
 							</table>
@@ -515,16 +382,16 @@
 				</li>
 				<li class='category displayed active'>
 					<div class='category-heading'>
-						<span class='category-name'>@test</span>
+						<span class='category-name'>@logOUT</span>
 						<span class='category-status right'>
-							<span class='label pass'>2</span>
+							<span class='label others'>1</span>
 						</span>
 					</div>
 					<div class='category-content hide'>
 						<div class='category-status-counts'>
-							<span class='label green accent-4 white-text'>Passed: 2</span>
 							
 							
+							<span class='label yellow darken-2 white-text'>Others: 1</span>
 						</div>
 					
 						<div class='category-tests'>
@@ -538,82 +405,9 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Jun 8, 2019 02:03:35 PM</td>
-										<td class='linked' test-id='2'>Tek School Test.Login to test environment</td>
-										<td><span class='test-status pass'>pass</span></td>
-									</tr>
-									<tr>
-										<td>Jun 8, 2019 02:03:47 PM</td>
-										<td class='linked' test-id='7'>Tek School Test.Login to My Account</td>
-										<td><span class='test-status pass'>pass</span></td>
-									</tr>
-								</tbody>
-							</table>
-						</div>
-					</div>
-				</li>
-				<li class='category displayed active'>
-					<div class='category-heading'>
-						<span class='category-name'>@loginPage</span>
-						<span class='category-status right'>
-							<span class='label pass'>1</span>
-						</span>
-					</div>
-					<div class='category-content hide'>
-						<div class='category-status-counts'>
-							<span class='label green accent-4 white-text'>Passed: 1</span>
-							
-							
-						</div>
-					
-						<div class='category-tests'>
-							<table class='bordered table-results'>
-								<thead>
-									<tr>
-										<th>Timestamp</th>
-										<th>TestName</th>
-										<th>Status</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td>Jun 8, 2019 02:03:47 PM</td>
-										<td class='linked' test-id='7'>Tek School Test.Login to My Account</td>
-										<td><span class='test-status pass'>pass</span></td>
-									</tr>
-								</tbody>
-							</table>
-						</div>
-					</div>
-				</li>
-				<li class='category displayed active'>
-					<div class='category-heading'>
-						<span class='category-name'>@test001</span>
-						<span class='category-status right'>
-							<span class='label pass'>1</span>
-						</span>
-					</div>
-					<div class='category-content hide'>
-						<div class='category-status-counts'>
-							<span class='label green accent-4 white-text'>Passed: 1</span>
-							
-							
-						</div>
-					
-						<div class='category-tests'>
-							<table class='bordered table-results'>
-								<thead>
-									<tr>
-										<th>Timestamp</th>
-										<th>TestName</th>
-										<th>Status</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td>Jun 8, 2019 02:03:58 PM</td>
-										<td class='linked' test-id='14'>Tek School Test.Testing login with different user and pass.Testing login with different user and pass</td>
-										<td><span class='test-status pass'>pass</span></td>
+										<td>Aug 11, 2019 07:23:14 PM</td>
+										<td class='linked' test-id='7'>Login Action.Successful LogOut</td>
+										<td><span class='test-status skip'>skip</span></td>
 									</tr>
 								</tbody>
 							</table>
@@ -647,51 +441,31 @@
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Scenarios
-					<div class='panel-lead'>3</div>
+					<div class='panel-lead'>2</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Steps
-					<div class='panel-lead'>18</div>
+					<div class='panel-lead'>6</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Jun 8, 2019 02:03:35 PM</div>
+					<div class='panel-lead'>Aug 11, 2019 07:23:14 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Jun 8, 2019 02:04:12 PM</div>
+			 		<div class='panel-lead'>Aug 11, 2019 07:23:14 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>37,083ms</div>
-				</div>
-			</div>
-			<div class='col s4'>
-				<div class='card-panel dashboard-environment'>
-					<span class='right label cyan white-text'>Environment</span><p>&nbsp;</p>
-					
-					<table>
-						<tr>
-							<th>Name</th>
-							<th>Value</th>
-						</tr>
-							<tr>
-								<td>User Name</td>
-								<td>allem</td>
-							</tr>
-							<tr>
-								<td>Time Zone</td>
-								<td>America/New_York</td>
-							</tr>
-					</table>
+					<div class='panel-lead'>261ms</div>
 				</div>
 			</div>
 			<div class='col s6'>
@@ -707,57 +481,30 @@
 							<th>Passed %</th>
 						</tr>
 						<tr>
-							<td>@TekSchoolTest</td>
-							<td>2</td>
+							<td>@alltest</td>
 							<td>0</td>
 							<td>0</td>
-							<td>
-									100%
-							</td>
-						</tr>
-						<tr>
-							<td>@LoginTest</td>
 							<td>1</td>
-							<td>0</td>
-							<td>0</td>
 							<td>
-									100%
+									0%
 							</td>
 						</tr>
 						<tr>
 							<td>@smoketest</td>
+							<td>0</td>
+							<td>0</td>
 							<td>1</td>
-							<td>0</td>
-							<td>0</td>
 							<td>
-									100%
+									0%
 							</td>
 						</tr>
 						<tr>
-							<td>@test</td>
-							<td>2</td>
+							<td>@logOUT</td>
 							<td>0</td>
 							<td>0</td>
-							<td>
-									100%
-							</td>
-						</tr>
-						<tr>
-							<td>@loginPage</td>
 							<td>1</td>
-							<td>0</td>
-							<td>0</td>
 							<td>
-									100%
-							</td>
-						</tr>
-						<tr>
-							<td>@test001</td>
-							<td>1</td>
-							<td>0</td>
-							<td>0</td>
-							<td>
-									100%
+									0%
 							</td>
 						</tr>
 					</table>
@@ -773,31 +520,31 @@
 
 		<script>
 			var statusGroup = {
-				passParent: 1,
+				passParent: 0,
 				failParent: 0,
 				fatalParent: 0,
 				errorParent: 0,
 				warningParent: 0,
-				skipParent: 0,
-				exceptionsParent: 0,
+				skipParent: 1,
+				exceptionsParent: 1,
 				
-				passChild: 3,
+				passChild: 0,
 				failChild: 0,
 				fatalChild: 0,
 				errorChild: 0,
 				warningChild: 0,
-				skipChild: 0,
+				skipChild: 2,
 				infoChild: 0,
-				exceptionsChild: 0,
+				exceptionsChild: 2,
 				
-				passGrandChild: 18,
+				passGrandChild: 0,
 				failGrandChild: 0,
 				fatalGrandChild: 0,
 				errorGrandChild: 0,
 				warningGrandChild: 0,
-				skipGrandChild: 0,
+				skipGrandChild: 6,
 				infoGrandChild: 0,
-				exceptionsGrandChild: 0,
+				exceptionsGrandChild: 6,
 			};
 		</script>
 		
@@ -805,13 +552,6 @@
 		
 		
  		<script type='text/javascript'>
- 			
-     
-       $(document).ready(function() {
-
-       });
-     
-   
  		</script>
 	</body>
 	

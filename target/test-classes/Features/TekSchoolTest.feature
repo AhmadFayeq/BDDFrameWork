@@ -31,6 +31,6 @@ Scenario Outline: Testing login with different user and pass
 	
 		|userName|password|
 		|tes12@tek.com|test0011|
-		#|tes13@tek.com|test0022|
-		#|tes14@tek.com|test0033|
+		|tes13@tek.com|test0022|
+		|tes14@tek.com|test0033|
 		

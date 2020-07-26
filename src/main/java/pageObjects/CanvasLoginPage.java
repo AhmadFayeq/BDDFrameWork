@@ -17,6 +17,14 @@ public class CanvasLoginPage extends ConfigFileReader{
 		  
 	  }
 	  
+	  @FindBy (how = How.ID, using = "username")
+	  private WebElement username;
+	  
+	  @FindBy (id = "book")
+	  WebElement book;
+	  
+	  
+	  
 	  @FindBy (how = How.XPATH , using ="(//input[@class = 'ic-Input text'])[1]")
 	  private WebElement emailField;
 	  

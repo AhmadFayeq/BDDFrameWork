@@ -12,7 +12,7 @@ public class MyAcountLogin extends ConfigFileReader {
 	
 	public MyAcountLogin() {
 		  
-		  PageFactory.initElements(driver, this);
+		  //PageFactory.initElements(driver, this);
 		  		  
 		  
 		  

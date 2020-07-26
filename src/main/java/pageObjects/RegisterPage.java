@@ -12,7 +12,7 @@ public class RegisterPage extends ConfigFileReader {
 
 	public RegisterPage() {
 
-		PageFactory.initElements(driver, this);
+		//PageFactory.initElements(driver, this);
 
 	}
 
@@ -30,7 +30,7 @@ public class RegisterPage extends ConfigFileReader {
 
 	@FindBy(how = How.XPATH, using = "//input[@id= 'input-password")
 	private WebElement passField;
-
+ 
 	@FindBy(how = How.XPATH, using = "//input[@name ='confirm']")
 	private WebElement passConfirmField;
 

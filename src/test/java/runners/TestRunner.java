@@ -16,7 +16,7 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions(features = "classpath:Features",// path to feeture files
 glue={"stepDefinitions"}, // path to step definition
-tags = {"@TekSchoolTest"},  // tags to run on feature level or scenario lever
+tags = {"@alltest"},  // tags to run on feature level or scenario lever
 dryRun = false,  // check  if all feature files has step definiton in step definition 
 monochrome = true,  // display the console output in readable way
 strict = false, // if set to false will fail if there are pending or undefined steps

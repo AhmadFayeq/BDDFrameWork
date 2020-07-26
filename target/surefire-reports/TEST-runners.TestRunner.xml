@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="runners.TestRunner" time="37.65" tests="21" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="runners.TestRunner" time="37.138" tests="6" errors="2" skipped="4" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_211\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\allem\AppData\Local\Temp\surefire1840959000433594883\surefirebooter2667651806264076981.jar C:\Users\allem\AppData\Local\Temp\surefire1840959000433594883 2019-06-08T14-03-34_639-jvmRun1 surefire7294577620942171802tmp surefire_05586924712758940144tmp"/>
+    <property name="sun.java.command" value="C:\Users\allem\AppData\Local\Temp\surefire4166626353437108451\surefirebooter9031485378454501402.jar C:\Users\allem\AppData\Local\Temp\surefire4166626353437108451 2019-06-15T06-40-58_734-jvmRun1 surefire6031658494500563993tmp surefire_05897678012934085393tmp"/>
     <property name="surefire.test.class.path" value="C:\Users\allem\eclipse-workspace\BDDTestFramework\target\test-classes;C:\Users\allem\eclipse-workspace\BDDTestFramework\target\classes;C:\Users\allem\.m2\repository\org\apache\poi\poi\3.17\poi-3.17.jar;C:\Users\allem\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\allem\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;C:\Users\allem\.m2\repository\org\apache\poi\poi-ooxml\3.17\poi-ooxml-3.17.jar;C:\Users\allem\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.17\poi-ooxml-schemas-3.17.jar;C:\Users\allem\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar;C:\Users\allem\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\allem\.m2\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar;C:\Users\allem\.m2\repository\commons-io\commons-io\1.3.2\commons-io-1.3.2.jar;C:\Users\allem\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\allem\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\allem\.m2\repository\org\seleniumhq\selenium\selenium-java\3.7.0\selenium-java-3.7.0.jar;C:\Users\allem\.m2\repository\org\seleniumhq\selenium\selenium-api\3.7.0\selenium-api-3.7.0.jar;C:\Users\allem\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.7.0\selenium-chrome-driver-3.7.0.jar;C:\Users\allem\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.7.0\selenium-edge-driver-3.7.0.jar;C:\Users\allem\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.7.0\selenium-firefox-driver-3.7.0.jar;C:\Users\allem\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.7.0\selenium-ie-driver-3.7.0.jar;C:\Users\allem\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.7.0\selenium-opera-driver-3.7.0.jar;C:\Users\allem\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.7.0\selenium-remote-driver-3.7.0.jar;C:\Users\allem\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.7.0\selenium-safari-driver-3.7.0.jar;C:\Users\allem\.m2\repository\org\seleniumhq\selenium\selenium-support\3.7.0\selenium-support-3.7.0.jar;C:\Users\allem\.m2\repository\net\bytebuddy\byte-buddy\1.7.5\byte-buddy-1.7.5.jar;C:\Users\allem\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\allem\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\allem\.m2\repository\com\google\code\gson\gson\2.8.2\gson-2.8.2.jar;C:\Users\allem\.m2\repository\com\google\guava\guava\23.0\guava-23.0.jar;C:\Users\allem\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\allem\.m2\repository\com\google\errorprone\error_prone_annotations\2.0.18\error_prone_annotations-2.0.18.jar;C:\Users\allem\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\allem\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\allem\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\allem\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\allem\.m2\repository\info\cukes\cucumber-java\1.2.5\cucumber-java-1.2.5.jar;C:\Users\allem\.m2\repository\info\cukes\cucumber-core\1.2.5\cucumber-core-1.2.5.jar;C:\Users\allem\.m2\repository\info\cukes\cucumber-html\0.2.3\cucumber-html-0.2.3.jar;C:\Users\allem\.m2\repository\info\cukes\gherkin\2.12.2\gherkin-2.12.2.jar;C:\Users\allem\.m2\repository\info\cukes\cucumber-jvm-deps\1.0.5\cucumber-jvm-deps-1.0.5.jar;C:\Users\allem\.m2\repository\info\cukes\cucumber-junit\1.2.5\cucumber-junit-1.2.5.jar;C:\Users\allem\.m2\repository\com\vimalselvam\cucumber-extentsreport\3.0.2\cucumber-extentsreport-3.0.2.jar;C:\Users\allem\.m2\repository\com\aventstack\extentreports\3.1.2\extentreports-3.1.2.jar;C:\Users\allem\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\allem\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\allem\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\allem\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\allem\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\allem\.m2\repository\org\jsoup\jsoup\1.9.2\jsoup-1.9.2.jar;C:\Users\allem\.m2\repository\io\cucumber\cucumber-junit\4.3.1\cucumber-junit-4.3.1.jar;C:\Users\allem\.m2\repository\io\cucumber\cucumber-core\4.3.1\cucumber-core-4.3.1.jar;C:\Users\allem\.m2\repository\io\cucumber\cucumber-html\0.2.7\cucumber-html-0.2.7.jar;C:\Users\allem\.m2\repository\io\cucumber\gherkin\5.1.0\gherkin-5.1.0.jar;C:\Users\allem\.m2\repository\io\cucumber\tag-expressions\1.1.1\tag-expressions-1.1.1.jar;C:\Users\allem\.m2\repository\io\cucumber\cucumber-expressions\6.2.2\cucumber-expressions-6.2.2.jar;C:\Users\allem\.m2\repository\io\cucumber\datatable\1.1.12\datatable-1.1.12.jar;C:\Users\allem\.m2\repository\io\cucumber\datatable-dependencies\1.1.12\datatable-dependencies-1.1.12.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\allem"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\allem\AppData\Local\Temp\surefire1840959000433594883\surefirebooter2667651806264076981.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\allem\AppData\Local\Temp\surefire4166626353437108451\surefirebooter9031485378454501402.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_211\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_211\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -60,25 +60,50 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="Given User go to  Tek School page" classname="Scenario: Login to test environment" time="0.001"/>
-  <testcase name="When User click on test environment" classname="Scenario: Login to test environment" time="0"/>
-  <testcase name="When User should see the test environment page" classname="Scenario: Login to test environment" time="0"/>
-  <testcase name="Then User veriry test environment title" classname="Scenario: Login to test environment" time="0"/>
-  <testcase name="Scenario: Login to test environment" classname="Scenario: Login to test environment" time="0.7"/>
-  <testcase name="Given User go to  Tek School page" classname="Scenario: Login to My Account" time="0"/>
-  <testcase name="When User click on test environment" classname="Scenario: Login to My Account" time="0"/>
-  <testcase name="When User click on myAccount" classname="Scenario: Login to My Account" time="0"/>
-  <testcase name="And User select login from dropdown" classname="Scenario: Login to My Account" time="0"/>
-  <testcase name="Then User should see login page" classname="Scenario: Login to My Account" time="0"/>
-  <testcase name="Scenario: Login to My Account" classname="Scenario: Login to My Account" time="0.689"/>
-  <testcase name="Given User go to  Tek School page" classname="| tes12@tek.com | test0011 |" time="0"/>
-  <testcase name="When User click on test environment" classname="| tes12@tek.com | test0011 |" time="0"/>
-  <testcase name="When User click on myAccount" classname="| tes12@tek.com | test0011 |" time="0"/>
-  <testcase name="And User select login from dropdown" classname="| tes12@tek.com | test0011 |" time="0"/>
-  <testcase name="Then User should see login page" classname="| tes12@tek.com | test0011 |" time="0"/>
-  <testcase name="When User enter username tes12@tek.com" classname="| tes12@tek.com | test0011 |" time="0"/>
-  <testcase name="And User enter password test0011" classname="| tes12@tek.com | test0011 |" time="0"/>
-  <testcase name="And Click continue button" classname="| tes12@tek.com | test0011 |" time="0"/>
-  <testcase name="Then User should be logged in successfully" classname="| tes12@tek.com | test0011 |" time="0"/>
-  <testcase name="| tes12@tek.com | test0011 |" classname="| tes12@tek.com | test0011 |" time="0.69"/>
+  <testcase name="Given User go to  Tek School page" classname="Scenario: Login to My Account" time="0.016">
+    <error message="timeout&#10;  (Session info: chrome=74.0.3729.169)&#10;  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;Build info: version: &apos;3.7.0&apos;, revision: &apos;2321c73&apos;, time: &apos;2017-11-02T22:22:35.584Z&apos;&#10;System info: host: &apos;WINDOWS-02G0B46&apos;, ip: &apos;192.168.0.6&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_211&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\allem\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:56919}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.169, webStorageEnabled: true}&#10;Session ID: 7710f8bee13fe8cf1b01631104a8482a" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: 
+timeout
+  (Session info: chrome=74.0.3729.169)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.0', revision: '2321c73', time: '2017-11-02T22:22:35.584Z'
+System info: host: 'WINDOWS-02G0B46', ip: '192.168.0.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\allem\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:56919}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.169, webStorageEnabled: true}
+Session ID: 7710f8bee13fe8cf1b01631104a8482a
+</error>
+    <system-err><![CDATA[Starting ChromeDriver 74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}) on port 10294
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Jun 15, 2019 6:41:03 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+[1560595294.894][SEVERE]: Timed out receiving message from renderer: 12.579
+[1560595294.896][SEVERE]: Timed out receiving message from renderer: -0.002
+]]></system-err>
+  </testcase>
+  <testcase name="Scenario: Login to My Account" classname="Scenario: Login to My Account" time="0.021">
+    <error message="timeout&#10;  (Session info: chrome=74.0.3729.169)&#10;  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;Build info: version: &apos;3.7.0&apos;, revision: &apos;2321c73&apos;, time: &apos;2017-11-02T22:22:35.584Z&apos;&#10;System info: host: &apos;WINDOWS-02G0B46&apos;, ip: &apos;192.168.0.6&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_211&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\allem\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:56919}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.169, webStorageEnabled: true}&#10;Session ID: 7710f8bee13fe8cf1b01631104a8482a" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: 
+timeout
+  (Session info: chrome=74.0.3729.169)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.0', revision: '2321c73', time: '2017-11-02T22:22:35.584Z'
+System info: host: 'WINDOWS-02G0B46', ip: '192.168.0.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\allem\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:56919}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.169, webStorageEnabled: true}
+Session ID: 7710f8bee13fe8cf1b01631104a8482a
+</error>
+  </testcase>
+  <testcase name="When User click on test environment" classname="Scenario: Login to My Account" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="When User click on myAccount" classname="Scenario: Login to My Account" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And User select login from dropdown" classname="Scenario: Login to My Account" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then User should see login page" classname="Scenario: Login to My Account" time="0">
+    <skipped/>
+  </testcase>
 </testsuite>
